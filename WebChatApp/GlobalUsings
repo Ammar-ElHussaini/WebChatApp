@@ -1,0 +1,52 @@
+global using Data_Access_Layer.ProjectRoot.Core.Interfaces;
+global using Data_Access_Layer.ProjectRoot.Infrastructure.Repositories;
+global using Microsoft.AspNetCore.Cors.Infrastructure;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.IdentityModel.Tokens;
+global using System.Text;
+global using WebChatApp.Models;
+global using WebChatApp.Service.Implementations.AccountsService;
+global using WebChatApp.Service.Implementations.Chats.ChatUsersService.Helper;
+global using WebChatApp.Service.Implementations.Chats.GetAllChats;
+global using WebChatApp.Service.Implementations.Chats.GroupsServices.Helper;
+global using WebChatApp.Service.Implementations.CryptographyService;
+global using WebChatApp.Service.Implementations.LoggingService;
+global using WebChatApp.Service.Interfaces;
+global using WebChatApp.Service.Interfaces.AccountsService;
+global using WebChatApp.Service.Interfaces.IChats.IChatService.Helper;
+global using WebChatApp.Service.Interfaces.IChats.IGetAllChats;
+global using WebChatApp.Service.Interfaces.IChats.IGroupsServices.Helper;
+global using WebChatApp.Service.Interfaces.iLoggingService;
+global using WebChatApp.Service.Interfaces.NewFolder;
+global using ApiOpWebE_C.Models;
+global using Data_Access_Layer.ProjectRoot.Core.Interfaces;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.AspNetCore.Mvc;
+global using WebChatApp.Service.Interfaces.AccountsService;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Authorization;
+global using System.Diagnostics;
+global using Microsoft.EntityFrameworkCore.Infrastructure;
+global using System.Text.RegularExpressions;
+global using WebChatApp.Data_Acess_Layer.Models.DB;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using System.Linq.Expressions;
+global using Microsoft.AspNetCore.SignalR;
+global using System.ComponentModel.DataAnnotations;
+global using ApiOpWebE_C.OperationResults;
+global using WebChatApp.DTO;
+
+global using System.Security.Claims;
+
+global using System.Security.Cryptography;
+
+global using System.ComponentModel.DataAnnotations;
+
+
+
+
+
+
+
+
